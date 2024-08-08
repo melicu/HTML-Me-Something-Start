@@ -3,16 +3,21 @@
 
 <head>
    <title>My Great-Grandparents: George & Amelia</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <header>
-      <h1>My Great-Grandparents: A Greatly Abridged Story</h1>
-   </header>
-   <main>
-      <article>
+   <article class="content">
+      <header>
+         <h1 id="mainHeading" class="charm-regular">My Great-Grandparents:</h1>
+         <h1 id="subHeading" class="charm-regular">A Greatly Abridged Story</h1>
+      </header>
+      <main>
          <section>
-            <h2>The Beginning</h2>
+            <h2 class="charm-regular">The Beginning</h2>
             <p>George was born in 1901 in St. Louis, Missouri, the tenth of what would eventually be thirteen children.
                Amelia, the daughter of Polish immigrants, was born in 1903 in Shamokin, Pennsylvania, the fifth of eight
                children. Amelia eventually made her way to St. Louis, where she began working the assembly line at a
@@ -30,7 +35,7 @@
             </figure>
          </section>
          <section>
-            <h2>A Family of Eleven</h2>
+            <h2 class="charm-regular">A Family of Eleven</h2>
             <p>George and Amelia had their first child, a boy, in 1923. Nine more children were welcomed in the
                following years, including my grandmother, their seventh child, in 1934. One son was unfortunately lost
                at birth in 1941. The family of eleven - George, Amelia, five girls, and four boys - spent the Great
@@ -64,7 +69,7 @@
                of George and Amelia's remaining children married and had their own children, which leads us to...</p>
          </section>
          <section>
-            <h2>Generations of Descendants</h2>
+            <h2 class="charm-regular">Generations of Descendants</h2>
             <p>George and Amelia left quite a legacy. Eight of their children produced 39 grandchildren. I am one
                of 117 great&#8209;grandchildren. As of February of 2004, the great&#8209;great&#8209;grandchildren count
                was at 45, and the great&#8209;great&#8209;great&#8209;grandchildren count was at eight. These last two
@@ -76,7 +81,7 @@
                bothering him at the time. She always said he should have been a politician.</p>
          </section>
          <section>
-            <h2>Final Years</h2>
+            <h2 class="charm-regular">Final Years</h2>
             <p>You read correctly that my great&#8209;grandmother Amelia was still alive in February of 2004, aged 100.
                She was living at a nursing home in St. Louis, where her and George spent their last years. Yes, he also
                lived beyond 100. As long as he was able, George used pulleys daily to work out his arms. Amelia, her
@@ -87,8 +92,14 @@
                impressive nontheless. For perpective, the average lifespan an American at that time was 77.8 years.</p>
             <p>George and Amelia were featured more than once in the St. Louis Post Dispatch, as well as other
                publications, in celebration of their long lives and 80+ year marriage. Here are a few photos taken for a
-               feature in the St. Louis Post Dispatch in August 2001, right before they celebrated their 80th anniversary:</p>
-               <figure>
+               feature in the St. Louis Post Dispatch in August 2001, right before they celebrated their 80th
+               anniversary:</p>
+            <div>
+               <img src="images/Gma-and-Gpa_STLPD-2001.jpg" alt="George and Amelia in their room at the nursing home.">
+               <img src="images/Gpa-rubbing-feet_STLPD-2001.jpg" alt="George rubbing Amelia's feet.">
+               <img src="images/Gpa-arm-pulleys_STLPD-2001.jpg" alt="George doing exercises with the arm pulleys.">
+            </div>
+            <!-- <figure>
                   <img src="images/Gpa-arm-pulleys_STLPD-2001.jpg" alt="George doing exercises with the arm pulleys.">
                   <figcaption>At 100 years old, George said he exercised with these arm pulleys daily.
                   </figcaption>
@@ -104,21 +115,22 @@
                      alt="George and Amelia in their room at the nursing home.">
                   <figcaption>George and Amelia were featured in the St. Louis Post Dispatch when they celebrated their 80th anniversary.
                   </figcaption>
-               </figure>
+               </figure> -->
          </section>
          <section>
-            <h2>A Bit of Advice</h2>
-            <p>I hope you've found some inspiration - or at least awe - in the story of my great&#8209;grandparents.
+            <h2 class="charm-regular">A Bit of Advice</h2>
+            <p id="testP" class="funParagraph">I hope you've found some inspiration - or at least awe - in the story of
+               my great&#8209;grandparents.
                When asked for the secret to their longevity, George once said, <q>You have to cooperate with one
                   another. Everybody has faults.</q> Amelia replied, <q>You can't disagree about everything; it would
                   never work.</q> Also, I'm pretty sure they drank a shot of straight vinegar every day, so there's
-               that. Cheers!</p>
+               that. Cheers!&#129346</p>
          </section>
-      </article>
+         <footer>
+            &copy; Melissa Cusumano, 2024
+         </footer>
+   </article>
    </main>
-   <footer>
-      &copy; Melissa Cusumano, 2024
-   </footer>
 </body>
 
 </html>
