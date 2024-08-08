@@ -10,12 +10,12 @@
 </head>
 
 <body>
-   <article class="content">
-      <header>
-         <h1 id="mainHeading" class="charm-regular">My Great-Grandparents:</h1>
-         <h1 id="subHeading" class="charm-regular">A Greatly Abridged Story</h1>
-      </header>
-      <main>
+   <header class="content">
+      <h1 id="mainHeading" class="charm-regular">My Great-Grandparents:</h1>
+      <h1 id="subHeading" class="charm-regular">A Greatly Abridged Story</h1>
+   </header>
+   <main class="content">
+      <article>
          <section>
             <h2 class="charm-regular">The Beginning</h2>
             <p>George was born in 1901 in St. Louis, Missouri, the tenth of what would eventually be thirteen children.
@@ -27,12 +27,13 @@
                - once, twice, three times. But love prevailed, and in September of 1921, they finally eloped in his
                Model T Ford to Clayton, Missouri, where they were married before a justice of the peace. He was 20, and
                she was just shy of 18.</p>
-            <figure>
-               <img src="images/Amelia-and-George-wedding.jpg"
-                  alt="George and Amelia pictured on their formal wedding day.">
-               <figcaption>George's parents hosted a second, traditional wedding after George and Amelia's elopement.
-               </figcaption>
-            </figure>
+            <div class="center">
+                  <img src="images/Amelia-and-George-wedding.jpg"
+                     alt="George and Amelia pictured on their formal wedding day.">
+                  <caption><em>George's parents hosted a second, traditional wedding after George and
+                        Amelia's elopement.</em>
+                  </caption>
+            </div>
          </section>
          <section>
             <h2 class="charm-regular">A Family of Eleven</h2>
@@ -43,21 +44,25 @@
                wall&#8209;to&#8209;wall beds in the attic. George took whatever jobs he could to make ends meet during
                those hard times: fabricating obsolete car parts, painting houses, and fixing his neighbors' plumbing.
                Amelia, with the patience of a saint, took care of the home and children.
-            <figure>
-               <img src="images/Beck-Avenue.jpg" alt="A modern photo of George and Amelia's home on Beck Avenue.">
-               <figcaption>A recent photo of the home George and Amelia shared with their nine children on Beck Avenue.
-               </figcaption>
-            </figure>
-            <figure>
-               <img src="images/Beck-Avenue-attic.jpg"
-                  alt="The attic of the family home on Beck Avenue, where the nine siblings slept.">
-               <figcaption>I imagine this is the attic wherein all nine siblings slept.
-               </figcaption>
-            </figure>
-
+            <div class="photoRow">
+               <div class="photo">
+                  <figure>
+                     <img src="images/Beck-Avenue-front.jpg"
+                        alt="A modern photo of George and Amelia's home on Beck Avenue.">
+                     <figcaption><em>The family home on Beck Avenue.</em></figcaption>
+                  </figure>
+                  <figure>
+                     <img src="images/Beck-Avenue-attic.jpg"
+                        alt="The attic of the family home on Beck Avenue, where the nine siblings slept.">
+                     <figcaption><em>The attic wherein the nine children slept.</em></figcaption>
+                  </figure>
+               </div>
+            </div>
             </p>
             <p>All four of George and Amelia's sons left home to serve in World War II. Unfortunately, one of their sons
-               did not return; he was killed in action at Iwo Jima in 1945, at just 19 years old. My grandmother has
+               did not return; he was killed in action at the <a href="https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima"
+                  target="_blank">Battle of Iwo Jima</a> in 1945, at just 19
+               years old. My grandmother has
                always remembered this brother so fondly; he was generous and kind, always making time to entertain his
                younger siblings and to help his mother. His death was incredibly hard on both parents, but especially
                Amelia. Years later, the three remaining sons served in the Korean War. Thankfully, they all returned.
@@ -70,13 +75,16 @@
          </section>
          <section>
             <h2 class="charm-regular">Generations of Descendants</h2>
+            <img id="floatImg" src="images/strawberry-candy.jpg"
+               alt="The stale strawberry hard candies that everyone's grandparents had in their candy dish.">
             <p>George and Amelia left quite a legacy. Eight of their children produced 39 grandchildren. I am one
                of 117 great&#8209;grandchildren. As of February of 2004, the great&#8209;great&#8209;grandchildren count
                was at 45, and the great&#8209;great&#8209;great&#8209;grandchildren count was at eight. These last two
                numbers are, of course, much higher now. But Amelia was still alive at this last count, witnessing her
                family of 217 descendants. <em><b>Two hundred and seventeen descendants</em></b>, and I am so very proud
-               to be one of them. I remember visiting my great&#8209;grandparents as a child, always a little bit
-               afraid of my great&#8209;grandpa and always calmed by my great&#8209;grandma, who would gently whistle to
+               to be one of them. I remember visiting my great&#8209;grandparents as a child; they always had a candy
+               dish full of those liquid-filled strawberry hard candies. I was a bit
+               afraid of my great&#8209;grandpa but calmed by my great&#8209;grandma, who would gently whistle to
                herself in her chair as my great&#8209;grandpa went on and on about whatever political issue was
                bothering him at the time. She always said he should have been a politician.</p>
          </section>
@@ -90,32 +98,27 @@
                she held on until March of 2005, when she passed away at the age of 101. When George passed away in 2004,
                he and Amelia had been married for 82 years. Not a Guinness World Record (we tried), but incredibly
                impressive nontheless. For perpective, the average lifespan an American at that time was 77.8 years.</p>
-            <p>George and Amelia were featured more than once in the St. Louis Post Dispatch, as well as other
-               publications, in celebration of their long lives and 80+ year marriage. Here are a few photos taken for a
-               feature in the St. Louis Post Dispatch in August 2001, right before they celebrated their 80th
-               anniversary:</p>
-            <div>
-               <img src="images/Gma-and-Gpa_STLPD-2001.jpg" alt="George and Amelia in their room at the nursing home.">
-               <img src="images/Gpa-rubbing-feet_STLPD-2001.jpg" alt="George rubbing Amelia's feet.">
-               <img src="images/Gpa-arm-pulleys_STLPD-2001.jpg" alt="George doing exercises with the arm pulleys.">
+            <p>George and Amelia were featured several times in both local and national news publications in celebration
+               of their long lives and over&#8209;80&#8209;year marriage. Here are a few photos taken for a feature in
+               the St. Louis Post Dispatch in August 2001, right before they celebrated their 80th anniversary:</p>
+            <div class="photoRow">
+               <div class="photo">
+                  <figure>
+                     <img src="images/Gma-and-Gpa_STLPD-2001.jpg"
+                        alt="George and Amelia in their room at the nursing home.">
+                     <figcaption><em>George, 100, and Amelia, 97, in 2001.</em></figcaption>
+                  </figure>
+                  <figure>
+                     <img src="images/Gpa-rubbing-feet_STLPD-2001.jpg" alt="George rubbing Amelia's feet.">
+                     <figcaption><em>Amelia enjoying a foot rub by George.</em></figcaption>
+                  </figure>
+                  <figure>
+                     <img src="images/Gpa-arm-pulleys_STLPD-2001.jpg"
+                        alt="George doing exercises with the arm pulleys.">
+                     <figcaption><em>George using the arm pulleys.<em></figcaption>
+                  </figure>
+               </div>
             </div>
-            <!-- <figure>
-                  <img src="images/Gpa-arm-pulleys_STLPD-2001.jpg" alt="George doing exercises with the arm pulleys.">
-                  <figcaption>At 100 years old, George said he exercised with these arm pulleys daily.
-                  </figcaption>
-               </figure>
-               <figure>
-                  <img src="images/Gpa-rubbing-feet_STLPD-2001.jpg"
-                     alt="George rubbing Amelia's feet.">
-                  <figcaption>George would rub Amelia's feet as part of her physical therapy.
-                  </figcaption>
-               </figure>
-               <figure>
-                  <img src="images/Gma-and-Gpa_STLPD-2001.jpg"
-                     alt="George and Amelia in their room at the nursing home.">
-                  <figcaption>George and Amelia were featured in the St. Louis Post Dispatch when they celebrated their 80th anniversary.
-                  </figcaption>
-               </figure> -->
          </section>
          <section>
             <h2 class="charm-regular">A Bit of Advice</h2>
@@ -123,13 +126,13 @@
                my great&#8209;grandparents.
                When asked for the secret to their longevity, George once said, <q>You have to cooperate with one
                   another. Everybody has faults.</q> Amelia replied, <q>You can't disagree about everything; it would
-                  never work.</q> Also, I'm pretty sure they drank a shot of straight vinegar every day, so there's
-               that. Cheers!&#129346</p>
+                  never work.</q> They also drank a shot of straight vinegar every day, so there's that. Cheers!&#129346
+            </p>
          </section>
-         <footer>
-            &copy; Melissa Cusumano, 2024
-         </footer>
-   </article>
+      </article>
+      <footer class="content">
+         &copy; Melissa Cusumano, 2024
+      </footer>
    </main>
 </body>
 

@@ -1,7 +1,7 @@
 body {
     margin: 8px;
     display: block;
-    background: #555;
+    background: radial-gradient(bisque, #3f87a6);
 }
 
 .funParagraph {
@@ -32,15 +32,28 @@ body {
 h2 {
     font-size: 1.75rem;
     display: flex;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
 }
 
 h2::after {
     content: '';
     flex: 1;
     margin-left: .25rem;
+    margin-right: .75rem;
     height: 2px;
     background-color: #000;
     margin-top: 1.9rem;
+}
+
+p {
+    margin-top: 0rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: justify;
+    line-height: 1.25rem;
 }
 
 .charm-regular {
@@ -49,15 +62,69 @@ h2::after {
     font-style: normal;
 }
 
-.charm-bold {
-    font-family: "Charm", cursive;
-    font-weight: 700;
-    font-style: normal;
+footer {
+    margin-top: 2rem;
+    text-align: right;
 }
 
-
-
-div {
+.photoRow {
+    background: bisque;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.photo {
+    align-items: center;
+    background: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+figcaption {
+    text-align: left;
+    background: bisque;
+}
+
+.photo img {
+    max-height: 20.625rem;
+    width: auto;
+}
+
+#floatImg {
+    float: right;
+    max-height: 10rem;
+    width: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+
+.center {
+    background: bisque;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 75%;
+}
+
+@media (min-width: 900px) {
+    .photoRow {
+        align-items: stretch;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .photo {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
 }
